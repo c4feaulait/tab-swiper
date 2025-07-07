@@ -8,8 +8,8 @@ btns.forEach((btn, index) => {
     btn.addEventListener('click', () => {
     
         // 全てのボタンとコンテンツから is_active を削除
-        btns.forEach(b => b.classList.remove('is_active'));
-        contents.forEach(c => c.classList.remove('is_active'));
+        btns.forEach(button => button.classList.remove('is_active'));
+        contents.forEach(content => content.classList.remove('is_active'));
 
         // 対象だけに is_active を付与
         btn.classList.add('is_active');
